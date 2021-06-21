@@ -12,6 +12,8 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
     <title> planndesign </title>
   </head>
@@ -19,7 +21,9 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">
+          <img src="./images/pndlogo.png" style="height: 30px;" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -57,63 +61,61 @@
 
     <!-- banner -->
 
-    <section class="bg-dark text-white p-5">
+    <section style="min-height: 300px;" class="bg-dark banner text-white p-5">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
               <div class="col-4">
-                <h2>Join the growing community</h2>
-                <p>Get ready to use ideas for your home and office...</p>
-                <a href="#"> Start Browsing</a>
+                <div class="p-2">
+                  <h2>Join the growing community</h2>
+                  <p>Get ready to use ideas for your home and office...</p>
+                  <a href="#"> Start Browsing</a>
+                </div>
               </div>
               <div class="col-8">
-                <img src="./images/pnd1.jpg" class="d-block w-100" alt="...">
+                <img src="./images/pnd1.jpg"  height="100%" class="d-block w-100" alt="...">
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="row">
               <div class="col-4">
-                <h2>Join the growing community</h2>
-                <p>Get ready to use ideas for your home and office...</p>
-                <a href="#"> Start Browsing</a>
+                <div class="p-2">
+                  <h2>Join the growing community</h2>
+                  <p>Get ready to use ideas for your home and office...</p>
+                  <a href="#"> Start Browsing</a>
+                </div>
               </div>
               <div class="col-8">
-                <img src="./images/pnd3.jpg" class="d-block w-100" alt="...">
+                <img src="./images/pnd3.jpg" height="100%" class="d-block w-100" alt="...">
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="row">
               <div class="col-4">
-                <h2>Join the growing community</h2>
-                <p>Get ready to use ideas for your home and office...</p>
-                <a href="#"> Start Browsing</a>
+                <div class="p-2">
+                  <h2>Join the growing community</h2>
+                  <p>Get ready to use ideas for your home and office...</p>
+                  <a href="#"> Start Browsing</a>
+                </div>
               </div>
               <div class="col-8">
-                <img src="./images/pnd3.jpg" class="d-block w-100" alt="...">
+                <img src="./images/pnd3.jpg" height="100%" class="d-block w-100" alt="...">
               </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </section>
 
 
     <!-- Products -->
 
-    <section class=" text-center my-5">
+    <section class="products text-center my-5">
       <div class="container">
-        <h3 class="text-center">Products</h3>
+        <h3 class="text-center heading">Products</h3>
         <p class="text-center">
           Browse through awesome drawings and design inspirations. And, dont forget to watch our viral videos.
         </p>
@@ -146,7 +148,7 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-success w-md-25 m-auto">Get Started</button>
+        <button class="btn">Get Started</button>
       </div>
     </section>
 
@@ -332,9 +334,9 @@
     </section>
 
     <!-- feature drawing -->
-    <section class="container my-5">
+    <section class="drawing container my-5 text-center">
       <div>
-        <h3>Featured Drawings</h3>
+        <h3 class="heading">Featured Drawings</h3>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card m-3 shadow">
@@ -364,17 +366,17 @@
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-success btn-lg">Brows More >></button>
+        <button type="button" class="btn btn-lg">Brows More >></button>
       </div>
     </section>
 
     <!-- Products Buying Guide and Professional Reviews -->
-    <section class="bg-dark text-white py-5">
+    <section class="bg-dark buying text-center text-white py-5">
       <div class="container">
         <div class="text-center py-5">
-          <h3>Products Buying Guide and Professional Reviews</h3>
+          <h3 class="heading">Products Buying Guide and Professional Reviews</h3>
         </div>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
           <div class="col">
             <div class="card m-3 shadow">
               <img src="./images/image1_132.jpg" class="card-img-top" alt="...">
@@ -457,66 +459,66 @@
           </div>
 
         </div>
-        <button class="btn btn-success btn-lg">Browse More >></button>
+        <button class="btn btn-lg">Browse More >></button>
       </div>
     </section>
 
     <!-- Design Inspirations -->
-    <section class="bg-light py-5">
+    <section class="design text-center bg-light py-5">
       <div class="container">
-        <h3>Design Inspirations</h3>
+        <h3 class="heading">Design Inspirations</h3>
       <hr>
       <div class="row text-center my-2">
         <div class="col-md-5">
-          <img src="./images/contemporary-kitchen_4.jpg" alt="">
+          <img class="w-100" src="./images/contemporary-kitchen_4.jpg" alt="">
         </div>
-        <div class="col-md-7 p-5">
+        <div class="col-md-7">
           <h5><a href="#">Under- Cabinet Kitchen Lighting Ideas & Tips</a></h5>
           <p class="my-3">The kitchen is that part of a home where one spends quite a lot of time hence, the kitchen designs have evolved to match the lifestyle of…</p>
-          <button class="btn btn-success">Read More</button>
+          <button class="btn">Read More</button>
         </div>
       </div>
       <div class="row text-center my-2">
         <div class="col-md-5">
-          <img src="./images/contemporary-kitchen_4.jpg" alt="">
+          <img class="w-100" src="./images/contemporary-kitchen_4.jpg" alt="">
         </div>
-        <div class="col-md-7 p-5">
+        <div class="col-md-7">
           <h5><a href="#">Under- Cabinet Kitchen Lighting Ideas & Tips</a></h5>
           <p class="my-3">The kitchen is that part of a home where one spends quite a lot of time hence, the kitchen designs have evolved to match the lifestyle of…</p>
-          <button class="btn btn-success">Read More</button>
+          <button class="btn">Read More</button>
         </div>
       </div>
       <div class="row text-center my-2">
         <div class="col-md-5">
-          <img src="./images/contemporary-kitchen_4.jpg" alt="">
+          <img class="w-100" src="./images/contemporary-kitchen_4.jpg" alt="">
         </div>
-        <div class="col-md-7 p-5">
+        <div class="col-md-7">
           <h5><a href="#">Under- Cabinet Kitchen Lighting Ideas & Tips</a></h5>
           <p class="my-3">The kitchen is that part of a home where one spends quite a lot of time hence, the kitchen designs have evolved to match the lifestyle of…</p>
-          <button class="btn btn-success">Read More</button>
+          <button class="btn">Read More</button>
         </div>
       </div>
       <div class="row text-center my-2">
         <div class="col-md-5">
-          <img src="./images/contemporary-kitchen_4.jpg" alt="">
+          <img class="w-100" src="./images/contemporary-kitchen_4.jpg" alt="">
         </div>
-        <div class="col-md-7 p-5">
+        <div class="col-md-7">
           <h5><a href="#">Under- Cabinet Kitchen Lighting Ideas & Tips</a></h5>
           <p class="my-3">The kitchen is that part of a home where one spends quite a lot of time hence, the kitchen designs have evolved to match the lifestyle of…</p>
-          <button class="btn btn-success">Read More</button>
+          <button class="btn">Read More</button>
         </div>
       </div>
       <div class="row text-center my-2">
         <div class="col-md-5">
-          <img src="./images/contemporary-kitchen_4.jpg" alt="">
+          <img class="w-100" src="./images/contemporary-kitchen_4.jpg" alt="">
         </div>
-        <div class="col-md-7 p-5">
+        <div class="col-md-7">
           <h5><a href="#">Under- Cabinet Kitchen Lighting Ideas & Tips</a></h5>
           <p class="my-3">The kitchen is that part of a home where one spends quite a lot of time hence, the kitchen designs have evolved to match the lifestyle of…</p>
-          <button class="btn btn-success">Read More</button>
+          <button class="btn">Read More</button>
         </div>
       </div>
-        <button class="btn btn-success btn-lg">Brows All</button>
+        <button class="btn browse btn-lg mt-5">Browse All >></button>
       </div>
     </section>
 
@@ -554,14 +556,13 @@
     </section>
 
     <!-- footer -->
-    <section class="bg-dark text-white py-5">
+    <section class=" footer bg-dark text-white py-5 text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-2">
             <h6>
               PRODUCTS
             </h6>
-            <hr style="width: 60px; background-color: white;">
             <p><a href="#"><strong>Autocad Drawings</strong></a></p>
             <p><a href="#"><strong>Autocad Drawings</strong></a></p>
             <p><a href="#"><strong>Autocad Drawings</strong></a></p>
@@ -572,7 +573,6 @@
             <h6>
               PRODUCTS
             </h6>
-            <hr style="width: 60px; background-color: white;">
             <p><a href="#"><strong>Autocad Drawings</strong></a></p>
             <p><a href="#"><strong>Autocad Drawings</strong></a></p>
             <p><a href="#"><strong>Autocad Drawings</strong></a></p>
@@ -583,7 +583,6 @@
             <h6>
               PRODUCTS
             </h6>
-            <hr style="width: 60px; background-color: white;">
             <p><a href="#"><strong>Autocad Drawings</strong></a></p>
             <p><i class="fa fa-home mr-2">  Jaypee Klassic, Noida</i></p>
             <p><i class="fa fa-envelope mr-2"> info@planndesign.com</i></p>
@@ -592,14 +591,13 @@
             <h6>
               PRODUCTS
             </h6>
-            <hr style="width: 60px; background-color: white;">
+              <a style="color: white;" href="#" class="m-2"><i class="fab fa-facebook fa-2x "></i></a>
               <a href="#" class="m-2"><i class="fab fa-facebook fa-2x "></i></a>
+              <a href="#" class="m-2"><i class="fab fa-youtube fa-2x" style="color: red;"></i></a>
               <a href="#" class="m-2"><i class="fab fa-facebook fa-2x "></i></a>
+              <a href="#" class="m-2"><i class="fab fa-twitter fa-2x" style="color: yellow;"></i></a>
               <a href="#" class="m-2"><i class="fab fa-facebook fa-2x "></i></a>
-              <a href="#" class="m-2"><i class="fab fa-facebook fa-2x "></i></a>
-              <a href="#" class="m-2"><i class="fab fa-facebook fa-2x "></i></a>
-              <a href="#" class="m-2"><i class="fab fa-facebook fa-2x "></i></a>
-              <a href="#" class="m-2"><i class="fab fa-facebook fa-2x "></i></a>
+              <a href="#" class="m-2"><i class="fab fa-youtube fa-2x " style="color: red"></i></a>
           </div>
         </div>
       </div>
